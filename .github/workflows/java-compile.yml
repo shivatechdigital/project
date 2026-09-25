@@ -20,3 +20,6 @@ jobs:
 
       - name: Compile Java sources
         run: javac -d out Hello.java
+
+      - name: Run compiled Java program
+        run: java -cp out Hello
